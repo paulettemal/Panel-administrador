@@ -1,0 +1,76 @@
+{
+    "usuarios": [
+        {
+            "id": "1",
+            "user": {
+                "profileImage": "individuo1.png",
+                "name": "Andrew Bojangles"
+            },
+            "status": "Active",
+            "phoneNumber": "+79000010101",
+            "position": "CEO",
+            "department": "Pride 1",
+            "activity": "2 days ago"
+            },
+            {
+            "id": "2",
+            "user": {
+                "profileImage": "individuo2.png",
+                "name": "Jane Cooper"
+            },
+            "status": "Active",
+            "phoneNumber": "+79000010101",
+            "position": "Designer",
+            "department": "Pride 1",
+            "activity": "2 days ago"
+            },
+            {
+            "id": "3",
+            "user": {
+                "profileImage": "sujeto2.png",
+                "name": "Andrew Bojangles"
+            },
+            "status": "Active",
+            "phoneNumber": "+79000010101",
+            "position": "Designer",
+            "department": "Pride 1",
+            "activity": "2 days ago"
+            },
+            {
+            "id": "4",
+            "user": {
+                "profileImage": "sujeto3.png",
+                "name": "Andrew Bojangles"
+            },
+            "status": "Active",
+            "phoneNumber": "+79000010101",
+            "position": "Designer",
+            "department": "Pride 1",
+            "activity": "2 days ago"
+            },
+            {
+            "id": "5",
+            "user": {
+                "profileImage": "sujeto2.png",
+                "name": "Andrew Bojangles"
+            },
+            "status": "Active",
+            "phoneNumber": "+79000010101",
+            "position": "Designer",
+            "department": "Pride 1",
+            "activity": "2 days ago"
+            },
+            {
+            "id": "6",
+            "user": {
+                "profileImage": "sujeto3.png",
+                "name": "Andrew Bojangles"
+            },
+            "status": "Active",
+            "phoneNumber": "+79000010101",
+            "position": "Designer",
+            "department": "Pride 1",
+            "activity": "2 days ago"
+            }
+        ]
+    }
