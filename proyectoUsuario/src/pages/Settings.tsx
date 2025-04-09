@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Sidebar from "../components/Sidebar";
 import { extraerUsuarios } from "../services/Servicio";
 import { Usuario } from "../interfaces/Usuario";
+import Diseño from "../components/Diseño";
 
 function Settings() {
     const [usuarios, setUsuarios] = useState<Usuario[] | null>(null);
@@ -45,26 +46,26 @@ function Settings() {
             <Sidebar />
         </div>
         <div className="flex-1 p-4">
-            <div className="flex flex-row gap-100 pb-50 ">
-                <div>
-                    <h3 className="ml-40 font-bold text-5xl pt-12">
-                        12
-                    </h3>
-                    <h4 className="text-[15] ml-40">Peoples</h4>
+        <div className="flex flex-row justify-around pb-12 relative">
+            <div className="absolute h-3/4 top-1/8 left-1/3 w-px bg-gray-200 transform -translate-x-1/2"></div>
+                <div className="absolute h-3/4 top-1/8 right-1/3 w-px bg-gray-200 transform translate-x-1/2"></div>
+                <div className="flex flex-col items-center">
+                    <h3 className="font-bold text-5xl pt-12">{usuarios?.length}</h3>
+                    <h4 className="text-sm text-gray-500">Peoples</h4>
                 </div>
-                <div>
-                    <h3 className=" font-bold text-5xl pt-12">
-                        5
-                    </h3>
-                    <h4 className="text-[15] -ml-8">Departments</h4>
+                <div className="flex flex-col items-center">
+                    <h3 className="font-bold text-5xl pt-12">5</h3>
+                    <h4 className="text-sm text-gray-500">Departments</h4>
                 </div>
-                <div>
-                    <h3 className="font-bold text-5xl pt-12">
-                        3
-                    </h3>
-                    <h4 className="text-[15] -ml-3">Guests</h4>
+                <div className="flex flex-col items-center">
+                    <h3 className="font-bold text-5xl pt-12">0</h3>
+                    <h4 className="text-sm text-gray-500">Guests</h4>
                 </div>
             </div>
+            <div className="w-[1000] gap-2  flex mb-10">
+                <Diseño></Diseño>
+            </div>
+            <div className="pl-5 pr-5">
             <h2 className="text-xl font-semibold mb-4">Lista de Usuarios</h2>
             {usuarios && usuarios.length > 0 ? (
             <table className="w-full border-collapse border-b border-gray-300">
@@ -101,7 +102,7 @@ function Settings() {
             <p>No hay usuarios para mostrar.</p>
             )}
         </div>
-        </div>
+        </div></div>
     );
 }
 

@@ -1,7 +1,7 @@
 interface TarjetaProps{
-    nombre: string;
-    cargo: string;
-    imagen: string
+    nombre?: string;
+    cargo?: string;
+    imagen?: string
 }
 function Tarjeta({ nombre, cargo, imagen }: TarjetaProps) {
     return (

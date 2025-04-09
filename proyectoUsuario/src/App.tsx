@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <div className="h-screen flex flex-row">
-      <div className="w-[235px] bg-[#F1F1F1]">
+      <div className="w-[235px] bg-[#F1F1F1] h-lvh ">
         <Sidebar></Sidebar>
       </div>
       <div className="flex-1 ">
@@ -17,7 +17,7 @@ function App() {
             <img src="editar.png" className='h-[36px] w-[36px] cursor-pointer'></img>
           </div>
         </div>
-        <div className='  h-20 '>
+        <div className='h-20 '>
           <div>
             <h2 className='text-[32px] pl-1'>Workspace admins</h2>
           </div>

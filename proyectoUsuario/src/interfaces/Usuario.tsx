@@ -11,4 +11,5 @@ export interface Usuario {
     position: string;
     department: string;
     activity: string;
+    administrador: string;
 }

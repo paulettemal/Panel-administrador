@@ -1,76 +1,160 @@
 {
     "usuarios": [
         {
-            "id": "1",
-            "user": {
-                "profileImage": "individuo1.png",
-                "name": "Andrew Bojangles"
-            },
-            "status": "Active",
-            "phoneNumber": "+79000010101",
-            "position": "CEO",
-            "department": "Pride 1",
-            "activity": "2 days ago"
-            },
-            {
-            "id": "2",
-            "user": {
-                "profileImage": "individuo2.png",
-                "name": "Jane Cooper"
-            },
-            "status": "Active",
-            "phoneNumber": "+79000010101",
-            "position": "Designer",
-            "department": "Pride 1",
-            "activity": "2 days ago"
-            },
-            {
-            "id": "3",
-            "user": {
-                "profileImage": "sujeto2.png",
-                "name": "Andrew Bojangles"
-            },
-            "status": "Active",
-            "phoneNumber": "+79000010101",
-            "position": "Designer",
-            "department": "Pride 1",
-            "activity": "2 days ago"
-            },
-            {
-            "id": "4",
-            "user": {
-                "profileImage": "sujeto3.png",
-                "name": "Andrew Bojangles"
-            },
-            "status": "Active",
-            "phoneNumber": "+79000010101",
-            "position": "Designer",
-            "department": "Pride 1",
-            "activity": "2 days ago"
-            },
-            {
-            "id": "5",
-            "user": {
-                "profileImage": "sujeto2.png",
-                "name": "Andrew Bojangles"
-            },
-            "status": "Active",
-            "phoneNumber": "+79000010101",
-            "position": "Designer",
-            "department": "Pride 1",
-            "activity": "2 days ago"
-            },
-            {
-            "id": "6",
-            "user": {
-                "profileImage": "sujeto3.png",
-                "name": "Andrew Bojangles"
-            },
-            "status": "Active",
-            "phoneNumber": "+79000010101",
-            "position": "Designer",
-            "department": "Pride 1",
-            "activity": "2 days ago"
-            }
-        ]
-    }
+        "id": "1",
+        "administrador": "1",
+        "user": {
+            "profileImage": "individuo1.png",
+            "name": "Andrew Bojangles"
+        },
+        "status": "Active",
+        "phoneNumber": "+79000010101",
+        "position": "CEO",
+        "department": "Pride 1",
+        "activity": "2 days ago"
+        },
+        {
+        "id": "2",
+        "administrador": "1",
+        "user": {
+            "profileImage": "individuo2.png",
+            "name": "Jane Cooper"
+        },
+        "status": "Active",
+        "phoneNumber": "+79000010101",
+        "position": "Designer",
+        "department": "Pride 1",
+        "activity": "2 days ago"
+        },
+        {
+        "id": "3",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto2.png",
+            "name": "Andrew Bojangles"
+        },
+        "status": "Active",
+        "phoneNumber": "+79000010101",
+        "position": "Designer",
+        "department": "Pride 1",
+        "activity": "2 days ago"
+        },
+        {
+        "id": "4",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto3.png",
+            "name": "Andrew Bojangles"
+        },
+        "status": "Active",
+        "phoneNumber": "+79000010101",
+        "position": "Designer",
+        "department": "Pride 1",
+        "activity": "2 days ago"
+        },
+        {
+        "id": "5",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto2.png",
+            "name": "Andrew Bojangles"
+        },
+        "status": "Active",
+        "phoneNumber": "+79000010101",
+        "position": "Designer",
+        "department": "Pride 1",
+        "activity": "2 days ago"
+        },
+        {
+        "id": "6",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto3.png",
+            "name": "Andrew Bojangles"
+        },
+        "status": "Active",
+        "phoneNumber": "+79000010101",
+        "position": "Designer",
+        "department": "Pride 1",
+        "activity": "2 days ago"
+        },
+        {
+        "id": "7",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto2.png",
+            "name": "Carlos Perez"
+        },
+        "status": "Inactive",
+        "phoneNumber": "+525512345678",
+        "position": "Developer",
+        "department": "Tech",
+        "activity": "1 week ago"
+        },
+        {
+        "id": "8",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto3.png",
+            "name": "Maria Lopez"
+        },
+        "status": "Active",
+        "phoneNumber": "+541198765432",
+        "position": "Analyst",
+        "department": "Finance",
+        "activity": "1 day ago"
+        },
+        {
+        "id": "9",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto2.png",
+            "name": "Pedro Gomez"
+        },
+        "status": "Pending",
+        "phoneNumber": "+573101122334",
+        "position": "Manager",
+        "department": "Sales",
+        "activity": "3 days ago"
+        },
+        {
+        "id": "10",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto2.png",
+            "name": "Sofia Vargas"
+        },
+        "status": "Active",
+        "phoneNumber": "+51999887766",
+        "position": "Engineer",
+        "department": "Tech",
+        "activity": "4 hours ago"
+        },
+        {
+        "id": "11",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto3.png",
+            "name": "Javier Rodriguez"
+        },
+        "status": "Active",
+        "phoneNumber": "+569123456789",
+        "position": "Support",
+        "department": "Customer Service",
+        "activity": "1 hour ago"
+        },
+        {
+        "id": "12",
+        "administrador": "0",
+        "user": {
+            "profileImage": "sujeto2.png",
+            "name": "Isabela Torres"
+        },
+        "status": "Inactive",
+        "phoneNumber": "+593987654321",
+        "position": "Marketing",
+        "department": "Marketing",
+        "activity": "5 days ago"
+        }
+    ]
+}
