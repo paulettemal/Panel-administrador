@@ -1,6 +1,6 @@
 # Proyecto de Panel de Administración Web
 
-Este proyecto es una interfaz de usuario para un panel de administración, diseñada para facilitar la gestión de usuarios, la configuración del sistema y la visualización de información.
+Este proyecto es una interfaz de usuario para un panel de administración, diseñada para facilitar la gestión de usuarios hacia administradores.
 
 ## Descripción General
 
